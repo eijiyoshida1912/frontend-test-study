@@ -1,12 +1,24 @@
-# React + Vite
+# プロジェクト作成
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+npm create vite@latest
+npm i -D vitest @testing-library/react @testing-library/user-event jsdom @testing-library/jest-dom
 
-Currently, two official plugins are available:
+vitest.config.js 作成
+src/setupTests.js 作成
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 例題 1：ボタンをクリックして文字が変わる
 
-## Expanding the ESLint configuration
+学びポイント：render / screen / userEvent.click
+HelloButton.jsx / Home.jsx
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 例題 2：入力フォームにテキストを入れる
+
+学びポイント：userEvent.type / getByLabelText
+NameForm.jsx/ About.jsx
+「ラベルから要素を取る」ことを学べる。テストの基本。
+
+## 例題 3：条件分岐（ログイン状態）
+
+学びポイント：コンポーネントの状態をテストする
+LoginMessage.jsx / Login.jsx
+「props で分岐をテストする」パターン。最もシンプルなユニットテスト。

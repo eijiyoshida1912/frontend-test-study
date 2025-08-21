@@ -14,3 +14,8 @@ HelloButton.jsx / Home.jsx
 学びポイント：userEvent.type / getByLabelText
 NameForm.jsx/ About.jsx
 「ラベルから要素を取る」ことを学べる。テストの基本。
+
+例題3：条件分岐（ログイン状態）
+学びポイント：コンポーネントの状態をテストする
+LoginMessage.jsx / Login.jsx
+
