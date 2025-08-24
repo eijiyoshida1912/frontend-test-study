@@ -1,7 +1,6 @@
-import React from "react";
 import HelloButton from "./component/HelloButton/HelloButton";
 
-const Home = () => {
+const Lesson1 = () => {
   return (
     <div>
       <HelloButton />
@@ -9,4 +8,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Lesson1;

@@ -4,7 +4,7 @@ import { expect, test } from "vitest";
 
 test("ログインしているときの表示", () => {
   render(<LoginMessage loggedIn={true} />);
-  expect(screen.getByText("ようこそ!")).toBeInTheDocument();
+  expect(screen.getByText("ようこそ！")).toBeInTheDocument();
 });
 
 test("ログインしていないときの表示", () => {

@@ -1,7 +1,6 @@
-import React from "react";
 import NameForm from "./component/NameForm/NameForm";
 
-const About = () => {
+const Lesson2 = () => {
   return (
     <div>
       <NameForm />
@@ -9,4 +8,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Lesson2;

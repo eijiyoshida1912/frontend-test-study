@@ -1,12 +1,12 @@
 import React from "react";
 import LoginMessage from "./component/LoginMessage/LoginMessage";
 
-const Login = () => {
+const Lesson3 = () => {
   return (
     <div>
-      <LoginMessage loggedIn={false} />
+      <LoginMessage />
     </div>
   );
 };
 
-export default Login;
+export default Lesson3;
