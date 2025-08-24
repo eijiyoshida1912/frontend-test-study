@@ -11,7 +11,7 @@ npm run dev
 # テスト実行
 
 npx vitest
-npx vitest run
+npx vitest run  
 どちらでも可
 
 ## 例題 1：ボタンをクリックして文字が変わる
@@ -41,12 +41,12 @@ LoginMessage.jsx
 
 /lesson4
 
-学びポイント：userEvent.click でチェック ON/OFF を確認する
+学びポイント：userEvent.click でチェック ON/OFF を確認する  
 ToggleCheckbox.jsx
 
 ## 例題 5：リストをフィルタリング
 
 /lesson5
 
-学びポイント：userEvent.type とリスト表示のテスト
+学びポイント：userEvent.type とリスト表示のテスト  
 FilterList.jsx
